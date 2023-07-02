@@ -1,0 +1,24 @@
+body {
+  background-image: url('./body-background.png');
+}
+
+.principal-container {
+  height: 100vh;
+}
+
+.content {
+  color: white;
+  background-image: url('./content-background.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh;
+}
+
+.text {
+  text-align: right;
+}
+
+.my-name::before {
+  content: '😉 '
+}
